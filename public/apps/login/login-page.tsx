@@ -284,7 +284,7 @@ export function LoginPage(props: LoginPageDeps) {
         <EuiImage
           size="fullWidth"
           alt=""
-          url={props.config.ui.basicauth.login.brandimage || defaultBrandImage}
+          url={defaultBrandImage}
         />
       )}
       <EuiSpacer size="s" />
